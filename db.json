@@ -2,17 +2,17 @@
   "tasks": [
     {
       "title": "Learn React Native",
-      "done": true,
+      "done": false,
       "id": "1"
     },
     {
       "title": "Learn SCSS",
-      "done": true,
+      "done": false,
       "id": "2"
     },
     {
       "title": "Learn HTML",
-      "done": true,
+      "done": false,
       "id": "3"
     }
   ],

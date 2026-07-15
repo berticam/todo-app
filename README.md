@@ -1,16 +1,87 @@
-# React + Vite
+# Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and responsive task-management application based on the [Todo App design from Figma Community](https://www.figma.com/community/file/1350344600031523800).
 
-Currently, two official plugins are available:
+The application helps users organize daily tasks, track progress, and manage completed activities through a simple and intuitive interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Create new tasks
+- Mark tasks as completed
+- Delete tasks
+- View active and completed tasks
+- Responsive layout for desktop and mobile devices
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Design
 
-## Expanding the ESLint configuration
+The user interface is based on the following Figma Community design:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[View the Todo App design in Figma](https://www.figma.com/community/file/1350344600031523800)
+
+## Tech Stack
+
+- React
+- Vite
+- CSS
+
+## Getting Started
+
+### Prerequisites
+
+Install the following tools:
+
+- [Node.js](https://nodejs.org/) version 18 or newer
+- npm, yarn, or pnpm
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+cd todo-app
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in the terminal, usually:
+
+```text
+http://localhost:5173
+```
+
+## Available Scripts
+
+```bash
+npm run dev
+```
+
+Starts the application in development mode.
+
+```bash
+npm run build
+```
+
+Creates an optimized production build.
+
+```bash
+npm run preview
+```
+
+Runs the production build locally.
+
+```bash
+npm run lint
+```
+
+Checks the source code for linting issues.

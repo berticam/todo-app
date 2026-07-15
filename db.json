@@ -1,8 +1,20 @@
 {
   "tasks": [
-    { "id": "1", "title": "Learn React Native", "done": false },
-    { "id": "2", "title": "Learn SCSS", "done": false },
-    { "id": "3", "title": "Learn HTML", "done": false }
-
-  ]
+    {
+      "title": "Learn React Native",
+      "done": true,
+      "id": "1"
+    },
+    {
+      "title": "Learn SCSS",
+      "done": true,
+      "id": "2"
+    },
+    {
+      "title": "Learn HTML",
+      "done": true,
+      "id": "3"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

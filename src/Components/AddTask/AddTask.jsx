@@ -15,12 +15,11 @@ const AddTask = () => {
             method: "POST",
             body: JSON.stringify({
                 title: title,
-                done: false
+                done: false,
             })
         });
-        const tasks = r.json();
-        console.log(tasks);
 
+        form.reset();
     }
 
     return (

@@ -3,6 +3,7 @@
 .add-task {
   display: flex;
   justify-content: center;
+  gap: 8px;
   #task-title {
     padding: 10px 30px;
     color: common.$color-text;
